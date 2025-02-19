@@ -2,6 +2,7 @@ import './App.css'
 import { Link } from 'react-router-dom';
 import { useState, useEffect } from 'react';
 import animals from './AnimalsList.jsx';
+import HomeButton from './assets/home.png';
 
 function Game() {
 
@@ -40,11 +41,12 @@ function Game() {
     }, []);
 
     return (
-        <>
+        <div className='game-section'>
+            {!currentKey && <h1>Press any letter key! :)</h1>}
             {currentKey && currentKey.image && <img src={currentKey.image} alt={currentKey.name} />}
             {currentKey && currentKey.name && <h1>{currentKey.name}</h1>}
-            <Link to="/">Go Back</Link>
-        </>
+            <Link to="/" className='home-link'><img src={HomeButton} alt='Home' className='home-button' /></Link>
+        </div>
     )
 }
 

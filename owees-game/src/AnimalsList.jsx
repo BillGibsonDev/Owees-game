@@ -2,13 +2,13 @@ const animals = [
     {
         key: 'a',
         name: 'Alpaca',
-        sound: '',
+        sound: '/sounds/alpaca.mp3',
         image: '/images/alpaca.png'
     },
     {
         key: 'b',
         name: 'Bear',
-        sound: '',
+        sound: '/sounds/bear.wav',
         image: '/images/bear.png'
     },
     {
@@ -26,26 +26,26 @@ const animals = [
     {
         key: 'e',
         name: 'Elephant',
-        sound: '',
+        sound: '/sounds/elephant.mp3',
         image: '/images/elephant.png'
     },
     {
         key: 'f',
         name: 'Frog',
-        sound: '',
+        sound: '/sounds/frog.mp3',
         image: '/images/frog.png'
     },
     {
         key: 'g',
         name: 'Goat',
-        sound: '',
+        sound: '/sounds/goat.mp3',
         image: '/images/goat.png'
     },
 
     {
         key: 'h',
         name: 'Horse',
-        sound: '',
+        sound: '/sounds/horse.mp3',
         image: '/images/horse.png'
     },
     {
@@ -69,13 +69,13 @@ const animals = [
     {
         key: 'l',
         name: 'Lion',
-        sound: '',
+        sound: '/sounds/lion.mp3',
         image: '/images/lion.png'
     },
     {
         key: 'm',
         name: 'Mouse',
-        sound: '',
+        sound: '/sounds/mouse.mp3',
         image: '/images/mouse.png'
     },
     {
@@ -111,7 +111,7 @@ const animals = [
     {
         key: 's',
         name: 'Snake',
-        sound: '',
+        sound: '/sounds/hiss.mp3',
         image: '/images/snake.png'
     },
     {
@@ -135,13 +135,13 @@ const animals = [
     {
         key: 'w',
         name: 'Wolf',
-        sound: '',
+        sound: '/sounds/wolf.mp3',
         image: '/images/wolf.png'
     },
     {
         key: 'x',
         name: 'Xeme',
-        sound: '',
+        sound: '/sounds/xeme.mp3',
         image: '/images/xeme.png'
     },
     {
